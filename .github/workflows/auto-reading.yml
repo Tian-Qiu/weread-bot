@@ -40,7 +40,7 @@ on:
 jobs:
   auto-reading:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 2小时超时
+    timeout-minutes: 1800
     
     steps:
     - name: Checkout code
